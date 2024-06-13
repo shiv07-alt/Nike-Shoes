@@ -1,0 +1,229 @@
+@media screen and (max-width: 1280px){
+    
+}
+@media screen and (max-width: 1024px){
+    .hero-para {        
+        font-size: 16px;        
+    }
+    .header-menu ul li {
+        margin-inline-start: 40px;
+    }
+    .site-btn {
+        padding: 16px 50px;
+    }
+    .air-max-heading {
+        font-size: 50px;
+    }
+    .about-left h4 {
+        font-size: 20px;
+    }
+    .about-left p {        
+        font-size: 16px;
+    }
+    .shoes-btn-inner ul li a {        
+        font-size: 16px;        
+    }
+
+}
+@media screen and (max-width: 991px){
+    .header-menu-2 {
+        display: none;
+    }
+    .side-nav-2 .mobile-sidenav-btn {
+        display: block;
+    }    
+    .hero-heading {
+        font-size: 30px;
+    }
+    .site-btn {
+        padding: 14px 28px;
+        
+    }    
+    .header-menu ul li {
+        margin-inline-start: 32px;
+    }
+    .air-max-heading {
+        font-size: 40px;
+        letter-spacing: 60px;
+    }
+    .about-left p {
+        font-size: 14px;
+    }
+    .footer-inner-left .footer-discription {
+        padding-block-start: 30px;
+        font-size: 14px;        
+    }
+    .footer-media {
+        padding-block-start: 30px;
+    }
+    .footer-inner-right {
+        margin-inline-start: 50px;
+    }
+    .footer-inner-right ul li:not(:first-child) {        
+        padding-block-start: 35px;
+    }
+}
+@media screen and (max-width: 768px){
+    .header-menu {
+        display: none;
+    }
+    .mobile-sidenav-btn {
+        display: block;
+    }
+    .site-btn {
+        padding: 12px 30px;
+    }   
+    .footer-bottom {        
+        padding-block: 30px;        
+    }
+    .hero-para {
+        width: 350px;
+    }
+    .air-max-heading {
+        font-size: 30px;
+        letter-spacing: 60px;
+    }
+    .py-70 {
+        padding-block: 50px;
+    }
+    .about-left {
+        padding: 35px 30px;
+    }
+    .footer-inner-right h4 {
+        font-size: 24px;
+    }
+    .footer-inner-right ul li a {
+        font-size: 14px;        
+    }
+    .footer-inner-right ul li:not(:first-child) {
+        padding-block-start: 30px;
+    }
+    .footer-bottom {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    .hero-content {
+        text-align: center;
+    }
+    .hero-para {
+        width: auto;
+        text-align: center;
+    }
+    .air-max-heading {
+        font-size: 28px;
+        letter-spacing: 30px;
+    }
+    .shoes-btn-inner ul li a {
+        padding: 12px 40px;
+    }
+    .about-left {
+        text-align: center;
+    }
+    .about-left p{
+        text-align: center;
+    }
+    .about-football .row{
+        flex-direction: column-reverse;
+    }
+    .shoes-content p {
+        font-size: 16px;    
+    }
+    .shoes-content img {
+        padding-block: 30px;
+    }
+    .shoes-content{
+        text-align: center;
+    }
+    .shoes-content img {
+        padding-block: 30px;        
+    }
+    .football-shoes-content p {
+        padding-block-start: 20px;        
+    }
+    .footer-top {
+        padding-block-start: 10px;
+    }
+    .footer-inner-right {
+        margin-inline-start:0px;
+    }    
+}
+@media screen and (max-width: 580px){
+    .header-inner {
+        padding-block: 10px;
+    }
+    .py-70 {
+        padding-block: 30px;
+    }
+    .hero-content {
+        padding-block: 10px;
+    }
+    .hero-heading {
+        font-size: 24px;
+    }
+    .hero-para {        
+        padding-block: 10px;            
+    }
+    .site-btn {
+        padding: 10px 30px;
+        font-size: 14px;        
+    }
+    .air-max-heading {
+        font-size: 20px;
+        letter-spacing: 12px;
+    }
+    .about-left {
+        padding: 20px 20px;
+    }
+    .about-left p {
+        padding-block: 10px;
+    }
+    .football-shoes-content p {
+        font-size: 16px;
+    }
+    .footer-inner-left .footer-discription {
+        padding-block-start: 20px;
+    }
+    .footer-media {
+        padding-block-start: 20px;
+    }
+    .footer-bottom {
+        margin-block-start: 25px;
+    }
+}
+@media screen and (max-width: 480px){
+    .air-max {
+        padding-block-start: 10px;
+    }
+    .nav-sigin h3 {
+        font-size: 18px;        
+    }
+}
+@media screen and (max-width: 414px){
+    .hero-para {
+        font-size: 14px;
+    }
+    .shoes-btn-inner ul {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .football-shoes-content {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    .nav-sigin h3 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 325px){
+    .hero-heading {
+        font-size: 20px;
+    }
+    .shoes-content p {
+        font-size: 14px;
+    }
+    .football-shoes-content p {
+        font-size: 14px;
+    }   
+}

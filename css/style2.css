@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+.signup-inner {
+    max-width: 400px;    
+    border: 2px solid gray;
+    border-radius: 10px;     
+    padding: 40px;
+}
+.signup-outer{
+    margin-block-start: 70px;
+}
+.signup-outer .col-12 {
+    justify-content: center;
+    display: inline-flex;
+}
+.signup-inner h2 {
+    margin-block-end: 20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.signup-inner label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 26px;
+    font-weight: bold;
+    }
+/* input[type="text"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: -webkit-fill-available;
+} */
+
+.signup-inner input[type=text], input[type=password] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* form a{
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.signup-inner form button{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}       
+.signup-inner form a{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

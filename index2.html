@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body onload="changename()">
+    <!-- Header-section -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-3">
+                        <div class="nike-logo">
+                            <a href="#">
+                                <img src="img/nike-logo (1).png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="nav-sigin d-flex justify-content-start align-items-center">                
+                            <h3 id = "name"></h3>
+                         </div>
+                    </div>
+                
+                    <div class="col-7 col-md-7">
+                        <div class="header-menu menu-content header-menu-2">
+                            <ul class="list-unstyled d-flex justify-content-end align-items-center">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="signin.html">Logout</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="site-btn site-btn-2">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="side-nav-2">
+                            <div class="mobile-sidenav-btn float-end">
+                                <button class="mobile-toggle-btn"><i class="fa fa-bars"></i></button>
+                            </div>
+                            <div class="mobile-sidenav-content" id="mySidenav">
+                                <div class="mobile-sidenav-btn sidenav-close-btn">
+                                    <button class="mobile-toggle-btn active"><i class="fa fa-close"></i></button>
+                                </div>
+                                <div class="menu-header-menu-container">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                        </li>                                    
+                                        <li>
+                                            <a href="signin.html">Logout</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="site-btn site-btn-2">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="hero-content">
+                            <h1 class="hero-heading">Sport <br>
+                            Shoes</h1>
+                            <p class="hero-para"> An athletic shoe is a name for a shoe designed for sporting and physical
+                            activities, and is different in style and build than a dress shoe.</p>                    
+                            <a href="#" class="site-btn">Know More</a>                                              
+                        </div>
+                    </div>                                        
+                </div>                                
+            </div>            
+        </div>
+        <div class="air-max">
+            <h2 class="air-max-heading">AIR MAX</h2>
+        </div>
+    </section>
+
+    <!-- About us section -->
+    <section class="about-section py-70">
+        <div class="container">
+            <div class="about-inner">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="about-left">
+                            <h4>About Us</h4>
+                            <p>An athletic shoe is a name for a shoe designed for sporting and physical activities, and is different in style and build than a dress shoe. Originally used mainly during sports, today they are worn as casuulal footwear. They are often very comfortable and usually have lots of paddin</p>
+                            <a href="#" class="site-btn site-bt">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-right">
+                            <img src="img/nike-white-shoe.png" alt="shoe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shoes-button section -->
+    <section class="shoes-btn-section">
+        <div class="container">
+            <div class="shoes-btn-inner">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#men" class="nav-link rounded-pill active" data-bs-toggle="pill">Men's Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#women" class="nav-link rounded-pill" data-bs-toggle="pill">Women's Shoes</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="shoes-option">
+                <div class="tab-content">
+                    <div id="men" class="tab-pane active">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/nike-windrunner 1.png" alt="shoe">
+                                    <p>Nike Air Max 270 G
+                                        Shoes </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/nike-air-max-2017-black-green-250x250 1.png" alt="shoe">
+                                    <p>Nike Air Max Black Green </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/s-l960 1.png" alt="shoe">
+                                    <p>Nike Air Max Crimson Red Black</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="women" class="tab-pane">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/women-road-running-shoe.png" alt="shoe">
+                                    <p>Nike Air Max 270 G
+                                        Shoes </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/women-running-shoe.png" alt="shoe">
+                                    <p>Nike Air Max 270 G
+                                        Shoes </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="shoes-content">
+                                    <img src="img/court-vision-low-shoes.png" alt="shoe">
+                                    <p>Nike Air Max 270 G
+                                        Shoes </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- About Football Shoes -->
+    <section class="about-section py-70">
+        <div class="container">
+            <div class="about-football about-inner">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="about-right">
+                            <img src="img/nikefoot.png" alt="shoe">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-left">
+                            <h4>Nike Football Shoes</h4>
+                            <p>In 1994, Nike in the football world was small and wasn't keeping up with the big competitor of Adidas. Nike took every chance they received to grow their brand internationally which started off with the world cup in 1994 in the United States.</p>
+                            <a href="#" class="site-btn site-bt">Learn More</a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Football-shoes -->
+    <section class="football-shoes-section">
+        <div class="container">
+            <div class="football-shoes-inner">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="football-shoes-content">
+                            <img src="img/white-black.png" alt="shoe">
+                            <p>NIKE Phantom Luna II Academy FG/MG-White/Black</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="football-shoes-content">
+                            <img src="img/orange-yellow-football.png" alt="shoe">
+                            <p>Nike Vapor Football Shoes Yellow</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="football-shoes-content">
+                            <img src="img/blue-footbal-shoes.png" alt="shoe">
+                            <p>Buy Nike Men's Royal 
+                                Silver-Race</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="football-shoes-content">
+                            <img src="img/blue-football.png" alt="shoe">
+                            <p>Buy Nike Mercurial  Blue/White</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-section -->
+    <footer>        
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-inner-left nike-logo">
+                            <a href="#">
+                                <img src="img/nike-logo (1).png" alt="logo">
+                            </a>
+                            <p class="footer-discription"> Nike Air Max is a line of shoes produced by Nike, Inc., with the first model released in 1987. Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled with pressurized gas visible from the exterior of the shoe and intended to provide cushioning to the underfoot.</p>
+
+                            <div class="footer-media">
+                                <ul class="list-unstyled d-flex justify-content-start">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Comapany -->
+                    <div class="col-md-4">
+                        <div class="footer-inner-right">                      
+                            <div class="footer-menu footer-menu-content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h4>Company</h4>
+                                    </li>
+                                    <li>
+                                        <a href="#">ABOUT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">NEWS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CAREERS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">INVESTORS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Help-->
+                    <div class="col-md-4">
+                        <div class="footer-inner-right">
+                            <div class="footer-menu footer-menu-content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h4>GET HELP</h4>
+                                    </li>
+                                    <li>
+                                        <a href="#">HELP</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ORDER STATUS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DELIVERY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">RETURNS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <div class="footer-bottom">
+            © 2024 Nike, Inc. All rights reserved
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    // ======= Mobile responsive toggle ========
+$(document).ready(function () {
+    $(document).on("click", ".mobile-toggle-btn", function () {
+        if ($(this).hasClass("active")) {
+            $(this).addClass("active");
+            $("#mySidenav").css("width", "0");
+        } else {
+            $(this).removeClass("active");
+            $("#mySidenav").css("width", "100vw");
+        }
+    });
+});
+</script>
+
+<!-- ==== Login & Signup ==== -->
+<script>
+    function changename() {
+            
+            var urlParams = new URLSearchParams(window.location.search);
+            var username = urlParams.get('username');
+            
+            var x=document.getElementById('name');
+            x.textContent = username;
+        }
+        const searchInput = document.getElementById('searchInput');
+    const searchList = document.getElementById('searchList');
+    
+    searchInput.addEventListener('input', function() {
+      const query = searchInput.value.toLowerCase();
+      
+      Array.from(searchList.children).forEach(function(item) {
+        const text = item.textContent.toLowerCase();
+        
+        if (text.includes(query)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+    
+    </script>
+</html>
